@@ -1,0 +1,22 @@
+{
+  "name": "lr6-ci-cd-node-app",
+  "version": "1.0.0",
+  "description": "Simple Express app with Jest tests and GitHub Actions CI/CD pipeline",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.1.1"
+  }
+}
+
+
